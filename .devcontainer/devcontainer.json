@@ -20,7 +20,19 @@
     // Configure properties specific to VS Code.
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
-      "extensions": ["dbaeumer.vscode-eslint", "ms-vscode.cpptools", "ms-vscode.makefile-tools"]
+      "extensions": [
+		"dbaeumer.vscode-eslint",
+		"ms-vscode.cpptools",
+		"ms-vscode.makefile-tools",
+		"ms-toolsai.jupyter",
+		"ms-toolsai.vscode-jupyter-cell-tags",
+		"ms-toolsai.jupyter-keymap",
+		"ms-vsliveshare.vsliveshare",
+		"ms-toolsai.jupyter-renderers",
+		"ms-toolsai.vscode-jupyter-slideshow",
+		"ms-python.vscode-pylance",
+		"ms-python.python"
+	]
     }
   }
 
