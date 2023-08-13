@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+    lab:
+        tty: true
+        image: us.gcr.io/plated-courier-290122/scistack:latest
+        volumes:
+            - ..:/home/jovyan/work
+        command:
+            - bash
+
